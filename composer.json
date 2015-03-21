@@ -1,0 +1,32 @@
+{
+    "name": "chabberwock/payza",
+    "description": "Payza module for Yii2",
+    "keywords": ["yii2", "payza"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/chabberwock/payza/issues?state=open",
+        "forum": "https://github.com/chabberwock/payza/issues?state=open",
+        "source": "https://github.com/chabberwock/payza"
+    },
+    "authors": [
+        {
+            "name": "Alexandr Makarov",
+            "email": "notengine@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "~2.0",
+        "codeception/specify": "*",
+        "codeception/verify": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "chabberwock\\payza\\": ""
+        }
+    }
+}
